@@ -7,14 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E449F8EA26342C410013D2A1 /* Patient.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E449F8E926342C410013D2A1 /* Patient.storyboard */; };
+		E449F8FC26343AB60013D2A1 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E449F8FB26343AB60013D2A1 /* ProfileViewController.swift */; };
+		E449F9012634477A0013D2A1 /* DoctorsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E449F9002634477A0013D2A1 /* DoctorsTableViewController.swift */; };
+		E449F921263461F30013D2A1 /* DoctorsTreatmentsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E449F920263461F30013D2A1 /* DoctorsTreatmentsTableViewController.swift */; };
+		E449F931263467290013D2A1 /* DoctorProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E449F930263467290013D2A1 /* DoctorProfileViewController.swift */; };
+		E458CC5026358BDA008C0814 /* Doctor.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E458CC4F26358BDA008C0814 /* Doctor.storyboard */; };
+		E458CC61263593D0008C0814 /* PatientsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E458CC60263593D0008C0814 /* PatientsViewController.swift */; };
+		E458CC692635976D008C0814 /* DoctorHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E458CC682635976D008C0814 /* DoctorHomeViewController.swift */; };
+		E458CC6E26359EEF008C0814 /* PatientProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E458CC6D26359EEF008C0814 /* PatientProfileViewController.swift */; };
+		E458CC732635A09D008C0814 /* AssignmentStatusTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E458CC722635A09D008C0814 /* AssignmentStatusTableViewController.swift */; };
 		E4CD3F732632E6B3003E619E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4CD3F722632E6B3003E619E /* AppDelegate.swift */; };
 		E4CD3F752632E6B3003E619E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4CD3F742632E6B3003E619E /* SceneDelegate.swift */; };
-		E4CD3F772632E6B3003E619E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4CD3F762632E6B3003E619E /* ViewController.swift */; };
+		E4CD3F772632E6B3003E619E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4CD3F762632E6B3003E619E /* LoginViewController.swift */; };
 		E4CD3F7A2632E6B3003E619E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4CD3F782632E6B3003E619E /* Main.storyboard */; };
 		E4CD3F7C2632E6B5003E619E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4CD3F7B2632E6B5003E619E /* Assets.xcassets */; };
 		E4CD3F7F2632E6B5003E619E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4CD3F7D2632E6B5003E619E /* LaunchScreen.storyboard */; };
 		E4CD3F8A2632E6B5003E619E /* Rehab_TrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4CD3F892632E6B5003E619E /* Rehab_TrackerTests.swift */; };
 		E4CD3F952632E6B5003E619E /* Rehab_TrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4CD3F942632E6B5003E619E /* Rehab_TrackerUITests.swift */; };
+		E4CD3FB1263320D8003E619E /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4CD3FB0263320D8003E619E /* SignupViewController.swift */; };
+		E4CD3FB92633340B003E619E /* PatientHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4CD3FB82633340B003E619E /* PatientHomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +47,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E449F8E926342C410013D2A1 /* Patient.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Patient.storyboard; sourceTree = "<group>"; };
+		E449F8FB26343AB60013D2A1 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		E449F9002634477A0013D2A1 /* DoctorsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorsTableViewController.swift; sourceTree = "<group>"; };
+		E449F920263461F30013D2A1 /* DoctorsTreatmentsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorsTreatmentsTableViewController.swift; sourceTree = "<group>"; };
+		E449F930263467290013D2A1 /* DoctorProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorProfileViewController.swift; sourceTree = "<group>"; };
+		E458CC4F26358BDA008C0814 /* Doctor.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Doctor.storyboard; sourceTree = "<group>"; };
+		E458CC60263593D0008C0814 /* PatientsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientsViewController.swift; sourceTree = "<group>"; };
+		E458CC682635976D008C0814 /* DoctorHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorHomeViewController.swift; sourceTree = "<group>"; };
+		E458CC6D26359EEF008C0814 /* PatientProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientProfileViewController.swift; sourceTree = "<group>"; };
+		E458CC722635A09D008C0814 /* AssignmentStatusTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentStatusTableViewController.swift; sourceTree = "<group>"; };
 		E4CD3F6F2632E6B3003E619E /* Rehab Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rehab Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4CD3F722632E6B3003E619E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E4CD3F742632E6B3003E619E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E4CD3F762632E6B3003E619E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E4CD3F762632E6B3003E619E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		E4CD3F792632E6B3003E619E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E4CD3F7B2632E6B5003E619E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E4CD3F7E2632E6B5003E619E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +71,8 @@
 		E4CD3F902632E6B5003E619E /* Rehab TrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rehab TrackerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4CD3F942632E6B5003E619E /* Rehab_TrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rehab_TrackerUITests.swift; sourceTree = "<group>"; };
 		E4CD3F962632E6B5003E619E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4CD3FB0263320D8003E619E /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		E4CD3FB82633340B003E619E /* PatientHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientHomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +100,84 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E449F8EE263430390013D2A1 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				E4CD3F782632E6B3003E619E /* Main.storyboard */,
+				E449F8E926342C410013D2A1 /* Patient.storyboard */,
+				E4CD3F7D2632E6B5003E619E /* LaunchScreen.storyboard */,
+				E458CC4F26358BDA008C0814 /* Doctor.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		E449F8F5263439050013D2A1 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E449F8F926343A5F0013D2A1 /* Login */,
+				E458CC5426358FD9008C0814 /* Doctor */,
+				E449F8FA26343A6F0013D2A1 /* Patient */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		E449F8F926343A5F0013D2A1 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				E4CD3F762632E6B3003E619E /* LoginViewController.swift */,
+				E4CD3FB0263320D8003E619E /* SignupViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		E449F8FA26343A6F0013D2A1 /* Patient */ = {
+			isa = PBXGroup;
+			children = (
+				E4CD3FB82633340B003E619E /* PatientHomeViewController.swift */,
+				E449F8FB26343AB60013D2A1 /* ProfileViewController.swift */,
+				E449F9002634477A0013D2A1 /* DoctorsTableViewController.swift */,
+				E449F920263461F30013D2A1 /* DoctorsTreatmentsTableViewController.swift */,
+				E449F930263467290013D2A1 /* DoctorProfileViewController.swift */,
+			);
+			path = Patient;
+			sourceTree = "<group>";
+		};
+		E449F905263456520013D2A1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E449F906263456740013D2A1 /* TableViewCells */,
+				E449F8F5263439050013D2A1 /* ViewControllers */,
+				E449F8EE263430390013D2A1 /* Storyboards */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E449F906263456740013D2A1 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				E449F907263456960013D2A1 /* Patient */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		E449F907263456960013D2A1 /* Patient */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Patient;
+			sourceTree = "<group>";
+		};
+		E458CC5426358FD9008C0814 /* Doctor */ = {
+			isa = PBXGroup;
+			children = (
+				E458CC60263593D0008C0814 /* PatientsViewController.swift */,
+				E458CC682635976D008C0814 /* DoctorHomeViewController.swift */,
+				E458CC6D26359EEF008C0814 /* PatientProfileViewController.swift */,
+				E458CC722635A09D008C0814 /* AssignmentStatusTableViewController.swift */,
+			);
+			path = Doctor;
+			sourceTree = "<group>";
+		};
 		E4CD3F662632E6B3003E619E = {
 			isa = PBXGroup;
 			children = (
@@ -101,10 +203,8 @@
 			children = (
 				E4CD3F722632E6B3003E619E /* AppDelegate.swift */,
 				E4CD3F742632E6B3003E619E /* SceneDelegate.swift */,
-				E4CD3F762632E6B3003E619E /* ViewController.swift */,
-				E4CD3F782632E6B3003E619E /* Main.storyboard */,
+				E449F905263456520013D2A1 /* Views */,
 				E4CD3F7B2632E6B5003E619E /* Assets.xcassets */,
-				E4CD3F7D2632E6B5003E619E /* LaunchScreen.storyboard */,
 				E4CD3F802632E6B5003E619E /* Info.plist */,
 			);
 			path = "Rehab Tracker";
@@ -233,6 +333,8 @@
 			files = (
 				E4CD3F7F2632E6B5003E619E /* LaunchScreen.storyboard in Resources */,
 				E4CD3F7C2632E6B5003E619E /* Assets.xcassets in Resources */,
+				E449F8EA26342C410013D2A1 /* Patient.storyboard in Resources */,
+				E458CC5026358BDA008C0814 /* Doctor.storyboard in Resources */,
 				E4CD3F7A2632E6B3003E619E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,9 +360,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4CD3F772632E6B3003E619E /* ViewController.swift in Sources */,
+				E4CD3F772632E6B3003E619E /* LoginViewController.swift in Sources */,
+				E458CC692635976D008C0814 /* DoctorHomeViewController.swift in Sources */,
 				E4CD3F732632E6B3003E619E /* AppDelegate.swift in Sources */,
+				E4CD3FB1263320D8003E619E /* SignupViewController.swift in Sources */,
 				E4CD3F752632E6B3003E619E /* SceneDelegate.swift in Sources */,
+				E449F921263461F30013D2A1 /* DoctorsTreatmentsTableViewController.swift in Sources */,
+				E449F931263467290013D2A1 /* DoctorProfileViewController.swift in Sources */,
+				E458CC61263593D0008C0814 /* PatientsViewController.swift in Sources */,
+				E449F8FC26343AB60013D2A1 /* ProfileViewController.swift in Sources */,
+				E458CC732635A09D008C0814 /* AssignmentStatusTableViewController.swift in Sources */,
+				E4CD3FB92633340B003E619E /* PatientHomeViewController.swift in Sources */,
+				E458CC6E26359EEF008C0814 /* PatientProfileViewController.swift in Sources */,
+				E449F9012634477A0013D2A1 /* DoctorsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
