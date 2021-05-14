@@ -3,15 +3,36 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0324A92BC314D66E24307CFA /* Pods_Rehab_Tracker_Rehab_TrackerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B598184DD619DFAE6FEF08B5 /* Pods_Rehab_Tracker_Rehab_TrackerUITests.framework */; };
+		C64280545B4AAF8E3623F7F8 /* Pods_Rehab_Tracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FF62D318B5C74495DA5F6D9 /* Pods_Rehab_Tracker.framework */; };
+		DAE9596FCFAF3A3E2AC321E4 /* Pods_Rehab_TrackerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A54B3D5FBCEA2EC2A88CFAB /* Pods_Rehab_TrackerTests.framework */; };
+		E418AA21264AAD28003CC2DF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E418AA20264AAD28003CC2DF /* GoogleService-Info.plist */; };
+		E418AA42264AC774003CC2DF /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = E418AA41264AC774003CC2DF /* Exercise.swift */; };
+		E418AA4A264AC8BC003CC2DF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E418AA49264AC8BC003CC2DF /* Constants.swift */; };
+		E418AA4F264AC952003CC2DF /* FirebaseCollectionReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = E418AA4E264AC952003CC2DF /* FirebaseCollectionReference.swift */; };
+		E418AA54264ACB5D003CC2DF /* ExerciseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E418AA53264ACB5D003CC2DF /* ExerciseManager.swift */; };
+		E4495C4326495C0E00A89269 /* AssignExerciseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4495C4226495C0E00A89269 /* AssignExerciseTableViewController.swift */; };
+		E4495C4926495CE800A89269 /* AssignExerciseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4495C4826495CE800A89269 /* AssignExerciseTableViewCell.swift */; };
+		E4495C5126496E1D00A89269 /* AssignmentsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4495C5026496E1D00A89269 /* AssignmentsTableViewController.swift */; };
+		E4495C562649748000A89269 /* ExerciseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4495C552649748000A89269 /* ExerciseViewController.swift */; };
+		E4495C622649756F00A89269 /* ExerciseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4495C612649756F00A89269 /* ExerciseTableViewCell.swift */; };
 		E449F8EA26342C410013D2A1 /* Patient.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E449F8E926342C410013D2A1 /* Patient.storyboard */; };
 		E449F8FC26343AB60013D2A1 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E449F8FB26343AB60013D2A1 /* ProfileViewController.swift */; };
 		E449F9012634477A0013D2A1 /* DoctorsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E449F9002634477A0013D2A1 /* DoctorsTableViewController.swift */; };
 		E449F921263461F30013D2A1 /* DoctorsTreatmentsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E449F920263461F30013D2A1 /* DoctorsTreatmentsTableViewController.swift */; };
 		E449F931263467290013D2A1 /* DoctorProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E449F930263467290013D2A1 /* DoctorProfileViewController.swift */; };
+		E44E9F29264D0C01004A137B /* Doctor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44E9F28264D0C01004A137B /* Doctor.swift */; };
+		E44E9F2E264D0E8A004A137B /* DoctorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44E9F2D264D0E8A004A137B /* DoctorManager.swift */; };
+		E44E9F33264D1A89004A137B /* Patient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44E9F32264D1A89004A137B /* Patient.swift */; };
+		E44E9F38264D23FD004A137B /* PatientManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44E9F37264D23FD004A137B /* PatientManager.swift */; };
+		E451CA6E264EB37200819AA5 /* Session.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E451CA6D264EB37200819AA5 /* Session.storyboard */; };
+		E451CA74264EB3AF00819AA5 /* SessionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E451CA73264EB3AF00819AA5 /* SessionViewController.swift */; };
+		E451CA79264EB6A900819AA5 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = E451CA78264EB6A900819AA5 /* Session.swift */; };
+		E451CA7E264EB6BE00819AA5 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E451CA7D264EB6BE00819AA5 /* SessionManager.swift */; };
 		E458CC5026358BDA008C0814 /* Doctor.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E458CC4F26358BDA008C0814 /* Doctor.storyboard */; };
 		E458CC61263593D0008C0814 /* PatientsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E458CC60263593D0008C0814 /* PatientsViewController.swift */; };
 		E458CC692635976D008C0814 /* DoctorHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E458CC682635976D008C0814 /* DoctorHomeViewController.swift */; };
@@ -47,11 +68,37 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		32C3B75B42BB662F646F61A6 /* Pods-Rehab TrackerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rehab TrackerTests.release.xcconfig"; path = "Target Support Files/Pods-Rehab TrackerTests/Pods-Rehab TrackerTests.release.xcconfig"; sourceTree = "<group>"; };
+		3CFF93ADD7F79B9F91A1493D /* Pods-Rehab Tracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rehab Tracker.debug.xcconfig"; path = "Target Support Files/Pods-Rehab Tracker/Pods-Rehab Tracker.debug.xcconfig"; sourceTree = "<group>"; };
+		4A54B3D5FBCEA2EC2A88CFAB /* Pods_Rehab_TrackerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rehab_TrackerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FF62D318B5C74495DA5F6D9 /* Pods_Rehab_Tracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rehab_Tracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B598184DD619DFAE6FEF08B5 /* Pods_Rehab_Tracker_Rehab_TrackerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rehab_Tracker_Rehab_TrackerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D65270CB183572E2C5A05824 /* Pods-Rehab TrackerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rehab TrackerTests.debug.xcconfig"; path = "Target Support Files/Pods-Rehab TrackerTests/Pods-Rehab TrackerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D8F865C8D0F63641BBD1C5F7 /* Pods-Rehab Tracker-Rehab TrackerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rehab Tracker-Rehab TrackerUITests.debug.xcconfig"; path = "Target Support Files/Pods-Rehab Tracker-Rehab TrackerUITests/Pods-Rehab Tracker-Rehab TrackerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DC9A94C4A4EA882547905E0B /* Pods-Rehab Tracker-Rehab TrackerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rehab Tracker-Rehab TrackerUITests.release.xcconfig"; path = "Target Support Files/Pods-Rehab Tracker-Rehab TrackerUITests/Pods-Rehab Tracker-Rehab TrackerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E418AA20264AAD28003CC2DF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E418AA41264AC774003CC2DF /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
+		E418AA49264AC8BC003CC2DF /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		E418AA4E264AC952003CC2DF /* FirebaseCollectionReference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseCollectionReference.swift; sourceTree = "<group>"; };
+		E418AA53264ACB5D003CC2DF /* ExerciseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseManager.swift; sourceTree = "<group>"; };
+		E4495C4226495C0E00A89269 /* AssignExerciseTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignExerciseTableViewController.swift; sourceTree = "<group>"; };
+		E4495C4826495CE800A89269 /* AssignExerciseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignExerciseTableViewCell.swift; sourceTree = "<group>"; };
+		E4495C5026496E1D00A89269 /* AssignmentsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentsTableViewController.swift; sourceTree = "<group>"; };
+		E4495C552649748000A89269 /* ExerciseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseViewController.swift; sourceTree = "<group>"; };
+		E4495C612649756F00A89269 /* ExerciseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseTableViewCell.swift; sourceTree = "<group>"; };
 		E449F8E926342C410013D2A1 /* Patient.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Patient.storyboard; sourceTree = "<group>"; };
 		E449F8FB26343AB60013D2A1 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		E449F9002634477A0013D2A1 /* DoctorsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorsTableViewController.swift; sourceTree = "<group>"; };
 		E449F920263461F30013D2A1 /* DoctorsTreatmentsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorsTreatmentsTableViewController.swift; sourceTree = "<group>"; };
 		E449F930263467290013D2A1 /* DoctorProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorProfileViewController.swift; sourceTree = "<group>"; };
+		E44E9F28264D0C01004A137B /* Doctor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Doctor.swift; sourceTree = "<group>"; };
+		E44E9F2D264D0E8A004A137B /* DoctorManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorManager.swift; sourceTree = "<group>"; };
+		E44E9F32264D1A89004A137B /* Patient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Patient.swift; sourceTree = "<group>"; };
+		E44E9F37264D23FD004A137B /* PatientManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientManager.swift; sourceTree = "<group>"; };
+		E451CA6D264EB37200819AA5 /* Session.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Session.storyboard; sourceTree = "<group>"; };
+		E451CA73264EB3AF00819AA5 /* SessionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionViewController.swift; sourceTree = "<group>"; };
+		E451CA78264EB6A900819AA5 /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
+		E451CA7D264EB6BE00819AA5 /* SessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
 		E458CC4F26358BDA008C0814 /* Doctor.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Doctor.storyboard; sourceTree = "<group>"; };
 		E458CC60263593D0008C0814 /* PatientsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientsViewController.swift; sourceTree = "<group>"; };
 		E458CC682635976D008C0814 /* DoctorHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorHomeViewController.swift; sourceTree = "<group>"; };
@@ -73,6 +120,7 @@
 		E4CD3F962632E6B5003E619E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E4CD3FB0263320D8003E619E /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
 		E4CD3FB82633340B003E619E /* PatientHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientHomeViewController.swift; sourceTree = "<group>"; };
+		F9CDB58E647DF22ADB4D26B3 /* Pods-Rehab Tracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rehab Tracker.release.xcconfig"; path = "Target Support Files/Pods-Rehab Tracker/Pods-Rehab Tracker.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +128,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C64280545B4AAF8E3623F7F8 /* Pods_Rehab_Tracker.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +136,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAE9596FCFAF3A3E2AC321E4 /* Pods_Rehab_TrackerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,12 +144,109 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0324A92BC314D66E24307CFA /* Pods_Rehab_Tracker_Rehab_TrackerUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		36D07528A334EA1663C8E6A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4FF62D318B5C74495DA5F6D9 /* Pods_Rehab_Tracker.framework */,
+				B598184DD619DFAE6FEF08B5 /* Pods_Rehab_Tracker_Rehab_TrackerUITests.framework */,
+				4A54B3D5FBCEA2EC2A88CFAB /* Pods_Rehab_TrackerTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4D46501A007686923D687C39 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3CFF93ADD7F79B9F91A1493D /* Pods-Rehab Tracker.debug.xcconfig */,
+				F9CDB58E647DF22ADB4D26B3 /* Pods-Rehab Tracker.release.xcconfig */,
+				D8F865C8D0F63641BBD1C5F7 /* Pods-Rehab Tracker-Rehab TrackerUITests.debug.xcconfig */,
+				DC9A94C4A4EA882547905E0B /* Pods-Rehab Tracker-Rehab TrackerUITests.release.xcconfig */,
+				D65270CB183572E2C5A05824 /* Pods-Rehab TrackerTests.debug.xcconfig */,
+				32C3B75B42BB662F646F61A6 /* Pods-Rehab TrackerTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E418AA3E264AC6CD003CC2DF /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				E418AA53264ACB5D003CC2DF /* ExerciseManager.swift */,
+				E44E9F2D264D0E8A004A137B /* DoctorManager.swift */,
+				E44E9F37264D23FD004A137B /* PatientManager.swift */,
+				E451CA7D264EB6BE00819AA5 /* SessionManager.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		E418AA3F264AC6E0003CC2DF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E418AA41264AC774003CC2DF /* Exercise.swift */,
+				E44E9F28264D0C01004A137B /* Doctor.swift */,
+				E44E9F32264D1A89004A137B /* Patient.swift */,
+				E451CA78264EB6A900819AA5 /* Session.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E418AA40264AC6EF003CC2DF /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				E418AA49264AC8BC003CC2DF /* Constants.swift */,
+				E418AA4E264AC952003CC2DF /* FirebaseCollectionReference.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		E4495C5A2649750B00A89269 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E458CC60263593D0008C0814 /* PatientsViewController.swift */,
+				E458CC682635976D008C0814 /* DoctorHomeViewController.swift */,
+				E458CC6D26359EEF008C0814 /* PatientProfileViewController.swift */,
+				E458CC722635A09D008C0814 /* AssignmentStatusTableViewController.swift */,
+				E4495C4226495C0E00A89269 /* AssignExerciseTableViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		E4495C5E2649752300A89269 /* Custom Cells */ = {
+			isa = PBXGroup;
+			children = (
+				E4495C4826495CE800A89269 /* AssignExerciseTableViewCell.swift */,
+			);
+			path = "Custom Cells";
+			sourceTree = "<group>";
+		};
+		E4495C5F2649754000A89269 /* ViewContollers */ = {
+			isa = PBXGroup;
+			children = (
+				E4CD3FB82633340B003E619E /* PatientHomeViewController.swift */,
+				E449F8FB26343AB60013D2A1 /* ProfileViewController.swift */,
+				E449F9002634477A0013D2A1 /* DoctorsTableViewController.swift */,
+				E449F920263461F30013D2A1 /* DoctorsTreatmentsTableViewController.swift */,
+				E449F930263467290013D2A1 /* DoctorProfileViewController.swift */,
+				E4495C5026496E1D00A89269 /* AssignmentsTableViewController.swift */,
+				E4495C552649748000A89269 /* ExerciseViewController.swift */,
+			);
+			path = ViewContollers;
+			sourceTree = "<group>";
+		};
+		E4495C602649755C00A89269 /* Custom Cells */ = {
+			isa = PBXGroup;
+			children = (
+				E4495C612649756F00A89269 /* ExerciseTableViewCell.swift */,
+			);
+			path = "Custom Cells";
+			sourceTree = "<group>";
+		};
 		E449F8EE263430390013D2A1 /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
@@ -107,18 +254,9 @@
 				E449F8E926342C410013D2A1 /* Patient.storyboard */,
 				E4CD3F7D2632E6B5003E619E /* LaunchScreen.storyboard */,
 				E458CC4F26358BDA008C0814 /* Doctor.storyboard */,
+				E451CA6D264EB37200819AA5 /* Session.storyboard */,
 			);
 			path = Storyboards;
-			sourceTree = "<group>";
-		};
-		E449F8F5263439050013D2A1 /* ViewControllers */ = {
-			isa = PBXGroup;
-			children = (
-				E449F8F926343A5F0013D2A1 /* Login */,
-				E458CC5426358FD9008C0814 /* Doctor */,
-				E449F8FA26343A6F0013D2A1 /* Patient */,
-			);
-			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 		E449F8F926343A5F0013D2A1 /* Login */ = {
@@ -133,47 +271,37 @@
 		E449F8FA26343A6F0013D2A1 /* Patient */ = {
 			isa = PBXGroup;
 			children = (
-				E4CD3FB82633340B003E619E /* PatientHomeViewController.swift */,
-				E449F8FB26343AB60013D2A1 /* ProfileViewController.swift */,
-				E449F9002634477A0013D2A1 /* DoctorsTableViewController.swift */,
-				E449F920263461F30013D2A1 /* DoctorsTreatmentsTableViewController.swift */,
-				E449F930263467290013D2A1 /* DoctorProfileViewController.swift */,
+				E4495C602649755C00A89269 /* Custom Cells */,
+				E4495C5F2649754000A89269 /* ViewContollers */,
 			);
 			path = Patient;
 			sourceTree = "<group>";
 		};
-		E449F905263456520013D2A1 /* Views */ = {
+		E449F905263456520013D2A1 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
-				E449F906263456740013D2A1 /* TableViewCells */,
-				E449F8F5263439050013D2A1 /* ViewControllers */,
+				E451CA72264EB39D00819AA5 /* Session */,
+				E449F8F926343A5F0013D2A1 /* Login */,
+				E449F8FA26343A6F0013D2A1 /* Patient */,
+				E458CC5426358FD9008C0814 /* Doctor */,
 				E449F8EE263430390013D2A1 /* Storyboards */,
 			);
-			path = Views;
+			path = Scenes;
 			sourceTree = "<group>";
 		};
-		E449F906263456740013D2A1 /* TableViewCells */ = {
+		E451CA72264EB39D00819AA5 /* Session */ = {
 			isa = PBXGroup;
 			children = (
-				E449F907263456960013D2A1 /* Patient */,
+				E451CA73264EB3AF00819AA5 /* SessionViewController.swift */,
 			);
-			path = TableViewCells;
-			sourceTree = "<group>";
-		};
-		E449F907263456960013D2A1 /* Patient */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Patient;
+			path = Session;
 			sourceTree = "<group>";
 		};
 		E458CC5426358FD9008C0814 /* Doctor */ = {
 			isa = PBXGroup;
 			children = (
-				E458CC60263593D0008C0814 /* PatientsViewController.swift */,
-				E458CC682635976D008C0814 /* DoctorHomeViewController.swift */,
-				E458CC6D26359EEF008C0814 /* PatientProfileViewController.swift */,
-				E458CC722635A09D008C0814 /* AssignmentStatusTableViewController.swift */,
+				E4495C5E2649752300A89269 /* Custom Cells */,
+				E4495C5A2649750B00A89269 /* ViewControllers */,
 			);
 			path = Doctor;
 			sourceTree = "<group>";
@@ -185,6 +313,8 @@
 				E4CD3F882632E6B5003E619E /* Rehab TrackerTests */,
 				E4CD3F932632E6B5003E619E /* Rehab TrackerUITests */,
 				E4CD3F702632E6B3003E619E /* Products */,
+				4D46501A007686923D687C39 /* Pods */,
+				36D07528A334EA1663C8E6A7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -203,9 +333,13 @@
 			children = (
 				E4CD3F722632E6B3003E619E /* AppDelegate.swift */,
 				E4CD3F742632E6B3003E619E /* SceneDelegate.swift */,
-				E449F905263456520013D2A1 /* Views */,
+				E418AA40264AC6EF003CC2DF /* Helpers */,
+				E418AA3F264AC6E0003CC2DF /* Models */,
+				E418AA3E264AC6CD003CC2DF /* Networking */,
+				E449F905263456520013D2A1 /* Scenes */,
 				E4CD3F7B2632E6B5003E619E /* Assets.xcassets */,
 				E4CD3F802632E6B5003E619E /* Info.plist */,
+				E418AA20264AAD28003CC2DF /* GoogleService-Info.plist */,
 			);
 			path = "Rehab Tracker";
 			sourceTree = "<group>";
@@ -235,9 +369,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E4CD3F992632E6B5003E619E /* Build configuration list for PBXNativeTarget "Rehab Tracker" */;
 			buildPhases = (
+				3533A3814E674DAD27CAC5D0 /* [CP] Check Pods Manifest.lock */,
 				E4CD3F6B2632E6B3003E619E /* Sources */,
 				E4CD3F6C2632E6B3003E619E /* Frameworks */,
 				E4CD3F6D2632E6B3003E619E /* Resources */,
+				D7D3FA346093858DE6E51003 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -252,6 +388,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E4CD3F9C2632E6B5003E619E /* Build configuration list for PBXNativeTarget "Rehab TrackerTests" */;
 			buildPhases = (
+				7F250809B68053FBFF43436D /* [CP] Check Pods Manifest.lock */,
 				E4CD3F812632E6B5003E619E /* Sources */,
 				E4CD3F822632E6B5003E619E /* Frameworks */,
 				E4CD3F832632E6B5003E619E /* Resources */,
@@ -270,9 +407,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E4CD3F9F2632E6B5003E619E /* Build configuration list for PBXNativeTarget "Rehab TrackerUITests" */;
 			buildPhases = (
+				0FB6E3F2A70D9232F791BE6B /* [CP] Check Pods Manifest.lock */,
 				E4CD3F8C2632E6B5003E619E /* Sources */,
 				E4CD3F8D2632E6B5003E619E /* Frameworks */,
 				E4CD3F8E2632E6B5003E619E /* Resources */,
+				531192BC373DBB78C8547EC8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -333,9 +472,11 @@
 			files = (
 				E4CD3F7F2632E6B5003E619E /* LaunchScreen.storyboard in Resources */,
 				E4CD3F7C2632E6B5003E619E /* Assets.xcassets in Resources */,
+				E451CA6E264EB37200819AA5 /* Session.storyboard in Resources */,
 				E449F8EA26342C410013D2A1 /* Patient.storyboard in Resources */,
 				E458CC5026358BDA008C0814 /* Doctor.storyboard in Resources */,
 				E4CD3F7A2632E6B3003E619E /* Main.storyboard in Resources */,
+				E418AA21264AAD28003CC2DF /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,22 +496,141 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0FB6E3F2A70D9232F791BE6B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Rehab Tracker-Rehab TrackerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3533A3814E674DAD27CAC5D0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Rehab Tracker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		531192BC373DBB78C8547EC8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Rehab Tracker-Rehab TrackerUITests/Pods-Rehab Tracker-Rehab TrackerUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Rehab Tracker-Rehab TrackerUITests/Pods-Rehab Tracker-Rehab TrackerUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Rehab Tracker-Rehab TrackerUITests/Pods-Rehab Tracker-Rehab TrackerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F250809B68053FBFF43436D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Rehab TrackerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7D3FA346093858DE6E51003 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Rehab Tracker/Pods-Rehab Tracker-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Rehab Tracker/Pods-Rehab Tracker-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Rehab Tracker/Pods-Rehab Tracker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E4CD3F6B2632E6B3003E619E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E451CA79264EB6A900819AA5 /* Session.swift in Sources */,
 				E4CD3F772632E6B3003E619E /* LoginViewController.swift in Sources */,
 				E458CC692635976D008C0814 /* DoctorHomeViewController.swift in Sources */,
+				E4495C5126496E1D00A89269 /* AssignmentsTableViewController.swift in Sources */,
+				E451CA74264EB3AF00819AA5 /* SessionViewController.swift in Sources */,
+				E451CA7E264EB6BE00819AA5 /* SessionManager.swift in Sources */,
 				E4CD3F732632E6B3003E619E /* AppDelegate.swift in Sources */,
+				E44E9F33264D1A89004A137B /* Patient.swift in Sources */,
 				E4CD3FB1263320D8003E619E /* SignupViewController.swift in Sources */,
 				E4CD3F752632E6B3003E619E /* SceneDelegate.swift in Sources */,
 				E449F921263461F30013D2A1 /* DoctorsTreatmentsTableViewController.swift in Sources */,
 				E449F931263467290013D2A1 /* DoctorProfileViewController.swift in Sources */,
 				E458CC61263593D0008C0814 /* PatientsViewController.swift in Sources */,
+				E418AA42264AC774003CC2DF /* Exercise.swift in Sources */,
+				E4495C4926495CE800A89269 /* AssignExerciseTableViewCell.swift in Sources */,
 				E449F8FC26343AB60013D2A1 /* ProfileViewController.swift in Sources */,
 				E458CC732635A09D008C0814 /* AssignmentStatusTableViewController.swift in Sources */,
+				E4495C4326495C0E00A89269 /* AssignExerciseTableViewController.swift in Sources */,
 				E4CD3FB92633340B003E619E /* PatientHomeViewController.swift in Sources */,
+				E418AA4F264AC952003CC2DF /* FirebaseCollectionReference.swift in Sources */,
+				E418AA4A264AC8BC003CC2DF /* Constants.swift in Sources */,
+				E44E9F2E264D0E8A004A137B /* DoctorManager.swift in Sources */,
+				E4495C562649748000A89269 /* ExerciseViewController.swift in Sources */,
+				E4495C622649756F00A89269 /* ExerciseTableViewCell.swift in Sources */,
+				E44E9F29264D0C01004A137B /* Doctor.swift in Sources */,
+				E418AA54264ACB5D003CC2DF /* ExerciseManager.swift in Sources */,
+				E44E9F38264D23FD004A137B /* PatientManager.swift in Sources */,
 				E458CC6E26359EEF008C0814 /* PatientProfileViewController.swift in Sources */,
 				E449F9012634477A0013D2A1 /* DoctorsTableViewController.swift in Sources */,
 			);
@@ -545,6 +805,7 @@
 		};
 		E4CD3F9A2632E6B5003E619E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CFF93ADD7F79B9F91A1493D /* Pods-Rehab Tracker.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -564,6 +825,7 @@
 		};
 		E4CD3F9B2632E6B5003E619E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9CDB58E647DF22ADB4D26B3 /* Pods-Rehab Tracker.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -583,6 +845,7 @@
 		};
 		E4CD3F9D2632E6B5003E619E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D65270CB183572E2C5A05824 /* Pods-Rehab TrackerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -605,6 +868,7 @@
 		};
 		E4CD3F9E2632E6B5003E619E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32C3B75B42BB662F646F61A6 /* Pods-Rehab TrackerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -627,6 +891,7 @@
 		};
 		E4CD3FA02632E6B5003E619E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8F865C8D0F63641BBD1C5F7 /* Pods-Rehab Tracker-Rehab TrackerUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -647,6 +912,7 @@
 		};
 		E4CD3FA12632E6B5003E619E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC9A94C4A4EA882547905E0B /* Pods-Rehab Tracker-Rehab TrackerUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
