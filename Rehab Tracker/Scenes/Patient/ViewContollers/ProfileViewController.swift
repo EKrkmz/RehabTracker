@@ -15,14 +15,14 @@ class ProfileViewController: UIViewController {
     @IBOutlet weak var medicalHistoryTextView: UITextView!
     @IBOutlet weak var currentProblemTextView: UITextView!
     
-    let defaults = UserDefaults.standard
-    var patientID: String?
-    var patient: Patient?
+    private let defaults = UserDefaults.standard
+    private var patientID: String?
+    private var patient: Patient?
     
     //MARK: - Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
-        patientID = defaults.string(forKey: currentUser)
+        patientID = defaults.string(forKey: currentPatientID)
     }
     
     override func viewDidAppear(_ animated: Bool) {

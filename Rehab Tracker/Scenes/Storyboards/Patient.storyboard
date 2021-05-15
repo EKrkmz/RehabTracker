@@ -495,7 +495,6 @@
                         <outlet property="doctorAgeLabel" destination="yHu-5C-WPw" id="3Y7-uK-lYD"/>
                         <outlet property="doctorNameLabel" destination="N2N-iZ-ds9" id="fs2-bK-b4X"/>
                         <outlet property="doctorPaymentLabel" destination="25L-fj-CeU" id="Pyi-Zo-CSu"/>
-                        <outlet property="startSession" destination="haY-tc-wrQ" id="Gdp-bq-eX7"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Mbr-ac-e6h" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

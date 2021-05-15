@@ -12,25 +12,24 @@ class DoctorProfileViewController: UIViewController {
     @IBOutlet weak var doctorNameLabel: UILabel!
     @IBOutlet weak var doctorAgeLabel: UILabel!
     @IBOutlet weak var doctorPaymentLabel: UILabel!
-    @IBOutlet weak var startSession: UIButton!
     
     var doctor: Doctor?
     var patientID: String?
-    let defaults = UserDefaults.standard
+    private let defaults = UserDefaults.standard
 
     override func viewDidLoad() {
         super.viewDidLoad()
         configureOutlets()
-        patientID = defaults.string(forKey: currentUser)
+        patientID = defaults.string(forKey: currentPatientID)
     }
     
     //MARK: - Actions
     @IBAction func buyTreatmentButton(_ sender: Any) {
         updateFirebase()
-        startSession.isHidden = false
     }
     
     @IBAction func startSessionWithDoctor(_ sender: Any) {
+        showSession()
     }
     
     func updateFirebase() {
@@ -47,13 +46,18 @@ class DoctorProfileViewController: UIViewController {
     
     //MARK: - Configure Outlets
     func configureOutlets() {
-        
-        startSession.isHidden = true
-        
         if let doctor = doctor {
             doctorNameLabel.text = doctor.doctorName
             doctorAgeLabel.text = doctor.doctorAge
             doctorPaymentLabel.text = doctor.doctorPayment
         }
+    }
+    
+    //MARK: - Navigation
+    func showSession() {
+        let storyboard = UIStoryboard(name: "Session", bundle: nil)
+        guard let sessionVC = storyboard.instantiateViewController(identifier: "sessionVC") as? SessionViewController else { return }
+        sessionVC.doctorID = doctor?.doctorID
+        show(sessionVC, sender: nil)
     }
 }

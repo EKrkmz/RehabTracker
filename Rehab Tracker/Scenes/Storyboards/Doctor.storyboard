@@ -174,16 +174,6 @@
             </objects>
             <point key="canvasLocation" x="2750.7246376811595" y="2082.5892857142858"/>
         </scene>
-        <!--Session-->
-        <scene sceneID="93o-1z-h8I">
-            <objects>
-                <viewControllerPlaceholder storyboardName="Session" id="K28-dp-wct" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="TVZ-ZX-b8N"/>
-                </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ttQ-Wa-9sv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3551" y="1773"/>
-        </scene>
         <!--Patients View Controller-->
         <scene sceneID="cpk-Gh-KDF">
             <objects>
@@ -410,7 +400,6 @@
                                         <state key="normal" title="Start Session"/>
                                         <connections>
                                             <action selector="startSessionWithPatient:" destination="YuA-XJ-iNf" eventType="touchUpInside" id="MZx-uo-g18"/>
-                                            <segue destination="K28-dp-wct" kind="show" id="662-yU-KXM"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lcT-cI-4Th">

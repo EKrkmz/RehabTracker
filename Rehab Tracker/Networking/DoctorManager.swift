@@ -28,7 +28,6 @@ class DoctorManager {
             }
             completion(doctorArray)
         }
-        
     }
     
     //MARK: - Download Doctor with ID
@@ -55,5 +54,4 @@ class DoctorManager {
             completion(error)
         }
     }
-    
 }

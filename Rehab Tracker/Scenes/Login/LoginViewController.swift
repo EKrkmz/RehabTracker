@@ -12,7 +12,7 @@ class LoginViewController: UIViewController {
     @IBOutlet weak var emailTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
     
-    var userID: String?
+    private var userID: String?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -38,7 +38,6 @@ class LoginViewController: UIViewController {
                 }
             }
         }
-        
     }
     
     @IBAction func signUpButton(_ sender: Any) {
@@ -46,11 +45,6 @@ class LoginViewController: UIViewController {
     }
     
     //MARK: - Navigation Methods
-    
-    func goToDoctorHomeVC() {
-        saveCurrentUserToUserDefaults()
-        performSegue(withIdentifier: "doctorSegue", sender: nil)
-    }
     
     func goToSignUpVC() {
      let storyboard = UIStoryboard(name: "Main", bundle: nil)
@@ -60,13 +54,13 @@ class LoginViewController: UIViewController {
         show(signUpVC, sender: nil)
     }
     
-    func goToPatientHomeVC() {
-        saveCurrentUserToUserDefaults()
-        performSegue(withIdentifier: "patientSegue", sender: nil)
+    func goToDoctorHomeVC() {
+        UserDefaults.standard.setValue(userID, forKey: currentDoctorID)
+        performSegue(withIdentifier: "doctorSegue", sender: nil)
     }
     
-    //MARK:- Current user UserDefaults
-    func saveCurrentUserToUserDefaults() {
-        UserDefaults.standard.setValue(userID, forKey: currentUser)
+    func goToPatientHomeVC() {
+        UserDefaults.standard.setValue(userID, forKey: currentPatientID)
+        performSegue(withIdentifier: "patientSegue", sender: nil)
     }
 }

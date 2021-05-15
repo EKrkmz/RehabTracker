@@ -9,7 +9,7 @@ import UIKit
 
 class AssignExerciseTableViewController: UITableViewController {
     
-    var exerciseArray: [Exercise] = []
+    private var exerciseArray: [Exercise] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()

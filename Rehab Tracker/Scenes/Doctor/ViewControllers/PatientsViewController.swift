@@ -20,7 +20,7 @@ class PatientsViewController: UIViewController {
         super.viewDidLoad()
         tableView.delegate = self
         tableView.dataSource = self
-        doctorID = defaults.string(forKey: currentUser)
+        doctorID = defaults.string(forKey: currentDoctorID)
     }
     
     override func viewDidAppear(_ animated: Bool) {

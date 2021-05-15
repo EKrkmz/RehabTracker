@@ -10,8 +10,8 @@ import UIKit
 class DoctorsTreatmentsTableViewController: UITableViewController {
     
     var patientID: String?
-    var patient: Patient?
-    var doctor: Doctor?
+    private var patient: Patient?
+    private var doctor: Doctor?
     
     override func viewDidLoad() {
         super.viewDidLoad()

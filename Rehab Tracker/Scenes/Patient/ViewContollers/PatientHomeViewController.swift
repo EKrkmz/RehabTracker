@@ -9,17 +9,17 @@ import UIKit
 
 class PatientHomeViewController: UIViewController {
 
-    var patientID: String?
-    var defaults = UserDefaults.standard
+    private var patientID: String?
+    private let defaults = UserDefaults.standard
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        getCurrentUserID()
+        patientID = defaults.string(forKey: currentPatientID)
     }
     
     @IBAction func logoutButton(_ sender: Any) {
         self.dismiss(animated: true, completion: nil)
-        defaults.removeObject(forKey: currentUser)
+        defaults.removeObject(forKey: currentPatientID)
     }
     
     @IBAction func seeDoctorsTreatmentsButton(_ sender: Any) {
@@ -28,9 +28,4 @@ class PatientHomeViewController: UIViewController {
         doctorsTreatmentsVC.patientID = patientID
         show(doctorsTreatmentsVC, sender: nil)
     }
-    
-    func getCurrentUserID() {
-        patientID = defaults.string(forKey: currentUser)
-    }
-    
 }

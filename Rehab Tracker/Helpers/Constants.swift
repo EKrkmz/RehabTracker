@@ -6,7 +6,8 @@
 //
 
 //MARK: - Current User ID key from UserDefaults
-public let currentUser = "currentUser"
+public let currentPatientID = "currentPatientID"
+public let currentDoctorID = "currentDoctorID"
 
 //MARK: - Exercise
 public let kExerciseID = "exerciseID"

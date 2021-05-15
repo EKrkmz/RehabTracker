@@ -9,28 +9,17 @@ import UIKit
 
 class DoctorHomeViewController: UIViewController {
     
-    var doctorID: String?
-    let defaults = UserDefaults.standard
+    private var doctorID: String?
+    private let defaults = UserDefaults.standard
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        getCurrentUserID()
-       
-    }
-    
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
-        
+        doctorID = defaults.string(forKey: currentDoctorID)
     }
     
     //MARK: - Logout the user
     @IBAction func logoutButton(_ sender: Any) {
         self.dismiss(animated: true, completion: nil)
-        defaults.removeObject(forKey: currentUser)
+        defaults.removeObject(forKey: currentDoctorID)
     }
-    
-    func getCurrentUserID() {
-        doctorID = defaults.string(forKey: currentUser)
-    }
-
 }
