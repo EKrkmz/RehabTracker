@@ -38,6 +38,9 @@
 		E458CC692635976D008C0814 /* DoctorHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E458CC682635976D008C0814 /* DoctorHomeViewController.swift */; };
 		E458CC6E26359EEF008C0814 /* PatientProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E458CC6D26359EEF008C0814 /* PatientProfileViewController.swift */; };
 		E458CC732635A09D008C0814 /* AssignmentStatusTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E458CC722635A09D008C0814 /* AssignmentStatusTableViewController.swift */; };
+		E465B06B265130BB006443E9 /* Assignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = E465B06A265130BB006443E9 /* Assignment.swift */; };
+		E465B070265132F9006443E9 /* AssignmentManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E465B06F265132F9006443E9 /* AssignmentManager.swift */; };
+		E465B07526514CB9006443E9 /* StatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E465B07426514CB9006443E9 /* StatusViewController.swift */; };
 		E4CD3F732632E6B3003E619E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4CD3F722632E6B3003E619E /* AppDelegate.swift */; };
 		E4CD3F752632E6B3003E619E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4CD3F742632E6B3003E619E /* SceneDelegate.swift */; };
 		E4CD3F772632E6B3003E619E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4CD3F762632E6B3003E619E /* LoginViewController.swift */; };
@@ -104,6 +107,9 @@
 		E458CC682635976D008C0814 /* DoctorHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorHomeViewController.swift; sourceTree = "<group>"; };
 		E458CC6D26359EEF008C0814 /* PatientProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientProfileViewController.swift; sourceTree = "<group>"; };
 		E458CC722635A09D008C0814 /* AssignmentStatusTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentStatusTableViewController.swift; sourceTree = "<group>"; };
+		E465B06A265130BB006443E9 /* Assignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment.swift; sourceTree = "<group>"; };
+		E465B06F265132F9006443E9 /* AssignmentManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentManager.swift; sourceTree = "<group>"; };
+		E465B07426514CB9006443E9 /* StatusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusViewController.swift; sourceTree = "<group>"; };
 		E4CD3F6F2632E6B3003E619E /* Rehab Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rehab Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4CD3F722632E6B3003E619E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E4CD3F742632E6B3003E619E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -181,6 +187,7 @@
 				E44E9F2D264D0E8A004A137B /* DoctorManager.swift */,
 				E44E9F37264D23FD004A137B /* PatientManager.swift */,
 				E451CA7D264EB6BE00819AA5 /* SessionManager.swift */,
+				E465B06F265132F9006443E9 /* AssignmentManager.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -192,6 +199,7 @@
 				E44E9F28264D0C01004A137B /* Doctor.swift */,
 				E44E9F32264D1A89004A137B /* Patient.swift */,
 				E451CA78264EB6A900819AA5 /* Session.swift */,
+				E465B06A265130BB006443E9 /* Assignment.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -213,6 +221,7 @@
 				E458CC6D26359EEF008C0814 /* PatientProfileViewController.swift */,
 				E458CC722635A09D008C0814 /* AssignmentStatusTableViewController.swift */,
 				E4495C4226495C0E00A89269 /* AssignExerciseTableViewController.swift */,
+				E465B07426514CB9006443E9 /* StatusViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -618,14 +627,17 @@
 				E449F931263467290013D2A1 /* DoctorProfileViewController.swift in Sources */,
 				E458CC61263593D0008C0814 /* PatientsViewController.swift in Sources */,
 				E418AA42264AC774003CC2DF /* Exercise.swift in Sources */,
+				E465B070265132F9006443E9 /* AssignmentManager.swift in Sources */,
 				E4495C4926495CE800A89269 /* AssignExerciseTableViewCell.swift in Sources */,
 				E449F8FC26343AB60013D2A1 /* ProfileViewController.swift in Sources */,
 				E458CC732635A09D008C0814 /* AssignmentStatusTableViewController.swift in Sources */,
 				E4495C4326495C0E00A89269 /* AssignExerciseTableViewController.swift in Sources */,
+				E465B06B265130BB006443E9 /* Assignment.swift in Sources */,
 				E4CD3FB92633340B003E619E /* PatientHomeViewController.swift in Sources */,
 				E418AA4F264AC952003CC2DF /* FirebaseCollectionReference.swift in Sources */,
 				E418AA4A264AC8BC003CC2DF /* Constants.swift in Sources */,
 				E44E9F2E264D0E8A004A137B /* DoctorManager.swift in Sources */,
+				E465B07526514CB9006443E9 /* StatusViewController.swift in Sources */,
 				E4495C562649748000A89269 /* ExerciseViewController.swift in Sources */,
 				E4495C622649756F00A89269 /* ExerciseTableViewCell.swift in Sources */,
 				E44E9F29264D0C01004A137B /* Doctor.swift in Sources */,

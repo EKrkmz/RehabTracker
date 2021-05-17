@@ -27,7 +27,6 @@ class PatientProfileViewController: UIViewController {
     
     //MARK: - Actions
     @IBAction func startSessionWithPatient(_ sender: Any) {
-        
         var session = Session()
         guard let patientID = patient?.patientID, let doctorID = doctorID else { return }
         session.sessionPatientID = patientID
@@ -39,11 +38,11 @@ class PatientProfileViewController: UIViewController {
     }
     
     @IBAction func assignTrainingButton(_ sender: Any) {
-        
+        performSegue(withIdentifier: "assignSegue", sender: nil)
     }
     
     @IBAction func finishTreatment(_ sender: Any) {
-        
+  
     }
     
     //MARK: - Configure Outlets
@@ -62,5 +61,13 @@ class PatientProfileViewController: UIViewController {
         guard let sessionVC = storyboard.instantiateViewController(identifier: "sessionVC") as? SessionViewController else { return }
         sessionVC.doctorID = doctorID
         show(sessionVC, sender: nil)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "assignSegue" {
+            let assignVC = segue.destination as! AssignExerciseTableViewController
+            assignVC.patientID = patient?.patientID
+            assignVC.doctorID = doctorID
+        }
     }
 }

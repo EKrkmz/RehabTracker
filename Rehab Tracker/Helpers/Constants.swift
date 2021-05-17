@@ -15,6 +15,14 @@ public let kExerciseName = "exerciseName"
 public let kExerciseDescription = "exerciseDescription"
 public let kExerciseImageName = "exerciseImageName"
 
+//MARK: - Assignment
+public let kAssignmentID = "assignmentID"
+public let kAssignmentExerciseIDs = "assignmentExerciseIDs"
+public let kAssignmentPatientID = "assignmentPatientID"
+public let kAssignmentDoctorID = "assignmentDoctorID"
+public let kAssignmentStatus = "assignmentStatus"
+public let kAssignmentMsg = "assignmentMsg"
+
 //MARK: - Doctor
 public let kDoctorID = "doctorID"
 public let kDoctorName = "doctorName"

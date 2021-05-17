@@ -10,10 +10,13 @@ import UIKit
 class AssignExerciseTableViewController: UITableViewController {
     
     private var exerciseArray: [Exercise] = []
+    private var trainingProgram: [String] = []
+    var patientID: String?
+    var doctorID: String?
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        navigationItem.rightBarButtonItems = [UIBarButtonItem(title: "Done", style: .plain, target: self, action: #selector(assignExercise))]
+        navigationItem.rightBarButtonItems = [UIBarButtonItem(title: "Done", style: .plain, target: self, action: #selector(assignTraining))]
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -25,8 +28,14 @@ class AssignExerciseTableViewController: UITableViewController {
         }
     }
     
-    @objc func assignExercise() {
+    @objc func assignTraining() {
+        var assignment = Assignment()
+        assignment.assignmentExerciseIDs = trainingProgram
+        assignment.assignmentDoctorID = doctorID!
+        assignment.assignmentPatientID = patientID!
         
+        AssignmentManager.shared.saveAssignmentToFirebase(assignment)
+        navigationController?.popViewController(animated: true)
     }
 
     // MARK: - Table view data source
@@ -42,8 +51,17 @@ class AssignExerciseTableViewController: UITableViewController {
         
         let exercise = exerciseArray[indexPath.row]
         cell.configure(exercise: exercise)
-       
+        cell.delegate = self
         return cell
     }
-    
+}
+
+extension AssignExerciseTableViewController: AssignExerciseDelegate {
+    func addToList(exerciseID: String) {
+        if trainingProgram.contains(exerciseID) {
+            trainingProgram = trainingProgram.filter { $0 != exerciseID }
+        } else {
+            trainingProgram.append(exerciseID)
+        }
+    }
 }

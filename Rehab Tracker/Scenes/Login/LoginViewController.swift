@@ -47,7 +47,7 @@ class LoginViewController: UIViewController {
     //MARK: - Navigation Methods
     
     func goToSignUpVC() {
-     let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
         guard let signUpVC = storyboard.instantiateViewController(identifier: "signUpVC") as? SignupViewController else {
             return
         }
