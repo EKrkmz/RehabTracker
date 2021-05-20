@@ -10,7 +10,7 @@ import Foundation
 struct Doctor {
     let doctorEmail: String
     let doctorPassword: String
-    let doctorID: String
+    var doctorID: String
     let doctorName: String?
     let doctorAge: String?
     let doctorPayment: String?

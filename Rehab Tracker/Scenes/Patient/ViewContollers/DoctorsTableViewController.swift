@@ -10,7 +10,7 @@ import UIKit
 class DoctorsTableViewController: UITableViewController {
     
     private var doctorList: [Doctor] = []
-
+  
     //MARK: - Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()

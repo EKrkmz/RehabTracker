@@ -7,9 +7,13 @@
 
 import Foundation
 
-class PatientManager {
+protocol PatientManagerProtocol {
+    func downloadPatientWithID(patientID: String, completion: @escaping(_ patient: Patient) -> Void)
+}
+
+class PatientManager: PatientManagerProtocol {
     static let shared = PatientManager()
-    private init() {}
+    //private init() {}
     
     //MARK: - Save Patient to Firebase
     func savePatientToFirebase(_ patient: Patient) {

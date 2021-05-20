@@ -52,3 +52,9 @@ public let kSessionDoctorID = "sessionDoctorID"
 public let kSessionMessages = "sessionMessages"
 public let kSessionMessageDate = "sessionMessageDate"
 
+//MARK: - Comments
+public let kCommentID = "commentID"
+public let kComment = "comment"
+public let kCommentDoctorID = "commentDoctorID"
+public let kCommentPatientName = "commentPatientName"
+public let kCommentDate = "commentDate"

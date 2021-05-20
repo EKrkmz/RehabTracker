@@ -26,6 +26,9 @@ class PatientHomeViewController: UIViewController {
         let storyboard = UIStoryboard(name: "Patient", bundle: nil)
         let doctorsTreatmentsVC = storyboard.instantiateViewController(identifier: "doctorsTreatmentsVC") as! DoctorsTreatmentsTableViewController
         doctorsTreatmentsVC.patientID = patientID
+        
+        doctorsTreatmentsVC.viewModel = DoctorsTreatmentsViewModel()
+        
         show(doctorsTreatmentsVC, sender: nil)
     }
 }

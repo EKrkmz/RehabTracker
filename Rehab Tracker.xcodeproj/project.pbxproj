@@ -15,6 +15,8 @@
 		E418AA4A264AC8BC003CC2DF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E418AA49264AC8BC003CC2DF /* Constants.swift */; };
 		E418AA4F264AC952003CC2DF /* FirebaseCollectionReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = E418AA4E264AC952003CC2DF /* FirebaseCollectionReference.swift */; };
 		E418AA54264ACB5D003CC2DF /* ExerciseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E418AA53264ACB5D003CC2DF /* ExerciseManager.swift */; };
+		E41B45452652A54B0029A052 /* DoctorsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41B45442652A54B0029A052 /* DoctorsViewModel.swift */; };
+		E41B454E2652B17C0029A052 /* MockManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41B454D2652B17C0029A052 /* MockManager.swift */; };
 		E4495C4326495C0E00A89269 /* AssignExerciseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4495C4226495C0E00A89269 /* AssignExerciseTableViewController.swift */; };
 		E4495C4926495CE800A89269 /* AssignExerciseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4495C4826495CE800A89269 /* AssignExerciseTableViewCell.swift */; };
 		E4495C5126496E1D00A89269 /* AssignmentsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4495C5026496E1D00A89269 /* AssignmentsTableViewController.swift */; };
@@ -33,6 +35,10 @@
 		E451CA74264EB3AF00819AA5 /* SessionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E451CA73264EB3AF00819AA5 /* SessionViewController.swift */; };
 		E451CA79264EB6A900819AA5 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = E451CA78264EB6A900819AA5 /* Session.swift */; };
 		E451CA7E264EB6BE00819AA5 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E451CA7D264EB6BE00819AA5 /* SessionManager.swift */; };
+		E4537F6E2656720A00103E3B /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4537F6D2656720A00103E3B /* Comment.swift */; };
+		E4537F732656731300103E3B /* CommentManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4537F722656731300103E3B /* CommentManager.swift */; };
+		E4537F78265677D000103E3B /* CommentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4537F77265677D000103E3B /* CommentTableViewCell.swift */; };
+		E4537F7D26567BC300103E3B /* DateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4537F7C26567BC300103E3B /* DateFormatter.swift */; };
 		E458CC5026358BDA008C0814 /* Doctor.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E458CC4F26358BDA008C0814 /* Doctor.storyboard */; };
 		E458CC61263593D0008C0814 /* PatientsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E458CC60263593D0008C0814 /* PatientsViewController.swift */; };
 		E458CC692635976D008C0814 /* DoctorHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E458CC682635976D008C0814 /* DoctorHomeViewController.swift */; };
@@ -84,6 +90,8 @@
 		E418AA49264AC8BC003CC2DF /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		E418AA4E264AC952003CC2DF /* FirebaseCollectionReference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseCollectionReference.swift; sourceTree = "<group>"; };
 		E418AA53264ACB5D003CC2DF /* ExerciseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseManager.swift; sourceTree = "<group>"; };
+		E41B45442652A54B0029A052 /* DoctorsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorsViewModel.swift; sourceTree = "<group>"; };
+		E41B454D2652B17C0029A052 /* MockManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockManager.swift; sourceTree = "<group>"; };
 		E4495C4226495C0E00A89269 /* AssignExerciseTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignExerciseTableViewController.swift; sourceTree = "<group>"; };
 		E4495C4826495CE800A89269 /* AssignExerciseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignExerciseTableViewCell.swift; sourceTree = "<group>"; };
 		E4495C5026496E1D00A89269 /* AssignmentsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentsTableViewController.swift; sourceTree = "<group>"; };
@@ -102,6 +110,10 @@
 		E451CA73264EB3AF00819AA5 /* SessionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionViewController.swift; sourceTree = "<group>"; };
 		E451CA78264EB6A900819AA5 /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
 		E451CA7D264EB6BE00819AA5 /* SessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
+		E4537F6D2656720A00103E3B /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		E4537F722656731300103E3B /* CommentManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentManager.swift; sourceTree = "<group>"; };
+		E4537F77265677D000103E3B /* CommentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentTableViewCell.swift; sourceTree = "<group>"; };
+		E4537F7C26567BC300103E3B /* DateFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatter.swift; sourceTree = "<group>"; };
 		E458CC4F26358BDA008C0814 /* Doctor.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Doctor.storyboard; sourceTree = "<group>"; };
 		E458CC60263593D0008C0814 /* PatientsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientsViewController.swift; sourceTree = "<group>"; };
 		E458CC682635976D008C0814 /* DoctorHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorHomeViewController.swift; sourceTree = "<group>"; };
@@ -188,6 +200,7 @@
 				E44E9F37264D23FD004A137B /* PatientManager.swift */,
 				E451CA7D264EB6BE00819AA5 /* SessionManager.swift */,
 				E465B06F265132F9006443E9 /* AssignmentManager.swift */,
+				E4537F722656731300103E3B /* CommentManager.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -200,6 +213,7 @@
 				E44E9F32264D1A89004A137B /* Patient.swift */,
 				E451CA78264EB6A900819AA5 /* Session.swift */,
 				E465B06A265130BB006443E9 /* Assignment.swift */,
+				E4537F6D2656720A00103E3B /* Comment.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -209,8 +223,17 @@
 			children = (
 				E418AA49264AC8BC003CC2DF /* Constants.swift */,
 				E418AA4E264AC952003CC2DF /* FirebaseCollectionReference.swift */,
+				E4537F7C26567BC300103E3B /* DateFormatter.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		E41B45492652A7F40029A052 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				E41B45442652A54B0029A052 /* DoctorsViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 		E4495C5A2649750B00A89269 /* ViewControllers */ = {
@@ -252,6 +275,7 @@
 			isa = PBXGroup;
 			children = (
 				E4495C612649756F00A89269 /* ExerciseTableViewCell.swift */,
+				E4537F77265677D000103E3B /* CommentTableViewCell.swift */,
 			);
 			path = "Custom Cells";
 			sourceTree = "<group>";
@@ -281,6 +305,7 @@
 			isa = PBXGroup;
 			children = (
 				E4495C602649755C00A89269 /* Custom Cells */,
+				E41B45492652A7F40029A052 /* ViewModels */,
 				E4495C5F2649754000A89269 /* ViewContollers */,
 			);
 			path = Patient;
@@ -358,6 +383,7 @@
 			children = (
 				E4CD3F892632E6B5003E619E /* Rehab_TrackerTests.swift */,
 				E4CD3F8B2632E6B5003E619E /* Info.plist */,
+				E41B454D2652B17C0029A052 /* MockManager.swift */,
 			);
 			path = "Rehab TrackerTests";
 			sourceTree = "<group>";
@@ -618,10 +644,12 @@
 				E458CC692635976D008C0814 /* DoctorHomeViewController.swift in Sources */,
 				E4495C5126496E1D00A89269 /* AssignmentsTableViewController.swift in Sources */,
 				E451CA74264EB3AF00819AA5 /* SessionViewController.swift in Sources */,
+				E4537F6E2656720A00103E3B /* Comment.swift in Sources */,
 				E451CA7E264EB6BE00819AA5 /* SessionManager.swift in Sources */,
 				E4CD3F732632E6B3003E619E /* AppDelegate.swift in Sources */,
 				E44E9F33264D1A89004A137B /* Patient.swift in Sources */,
 				E4CD3FB1263320D8003E619E /* SignupViewController.swift in Sources */,
+				E4537F732656731300103E3B /* CommentManager.swift in Sources */,
 				E4CD3F752632E6B3003E619E /* SceneDelegate.swift in Sources */,
 				E449F921263461F30013D2A1 /* DoctorsTreatmentsTableViewController.swift in Sources */,
 				E449F931263467290013D2A1 /* DoctorProfileViewController.swift in Sources */,
@@ -631,7 +659,9 @@
 				E4495C4926495CE800A89269 /* AssignExerciseTableViewCell.swift in Sources */,
 				E449F8FC26343AB60013D2A1 /* ProfileViewController.swift in Sources */,
 				E458CC732635A09D008C0814 /* AssignmentStatusTableViewController.swift in Sources */,
+				E4537F7D26567BC300103E3B /* DateFormatter.swift in Sources */,
 				E4495C4326495C0E00A89269 /* AssignExerciseTableViewController.swift in Sources */,
+				E41B45452652A54B0029A052 /* DoctorsViewModel.swift in Sources */,
 				E465B06B265130BB006443E9 /* Assignment.swift in Sources */,
 				E4CD3FB92633340B003E619E /* PatientHomeViewController.swift in Sources */,
 				E418AA4F264AC952003CC2DF /* FirebaseCollectionReference.swift in Sources */,
@@ -641,6 +671,7 @@
 				E4495C562649748000A89269 /* ExerciseViewController.swift in Sources */,
 				E4495C622649756F00A89269 /* ExerciseTableViewCell.swift in Sources */,
 				E44E9F29264D0C01004A137B /* Doctor.swift in Sources */,
+				E4537F78265677D000103E3B /* CommentTableViewCell.swift in Sources */,
 				E418AA54264ACB5D003CC2DF /* ExerciseManager.swift in Sources */,
 				E44E9F38264D23FD004A137B /* PatientManager.swift in Sources */,
 				E458CC6E26359EEF008C0814 /* PatientProfileViewController.swift in Sources */,
@@ -653,6 +684,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4CD3F8A2632E6B5003E619E /* Rehab_TrackerTests.swift in Sources */,
+				E41B454E2652B17C0029A052 /* MockManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

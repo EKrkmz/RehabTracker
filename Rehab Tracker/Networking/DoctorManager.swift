@@ -7,9 +7,14 @@
 
 import Foundation
 
-class DoctorManager {
+protocol DoctorManagerProtocol {
+    func downloadDoctorWithID(doctorID: String, completion: @escaping(_ doctor: Doctor) -> Void)
+}
+
+
+class DoctorManager: DoctorManagerProtocol {
     static let shared = DoctorManager()
-    private init() {}
+   // private init() {}
     
     //MARK: - DownloadDoctorsFromFirebase
     func downloadDoctorsFromFirebase(completion: @escaping(_ doctorArray: [Doctor]) -> Void) {

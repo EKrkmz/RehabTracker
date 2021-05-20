@@ -14,6 +14,7 @@ enum FCollectionReference: String {
     case Doctors
     case Sessions
     case Assignments
+    case Comments
 }
 
 func FirebaseReference(_ collectionReference: FCollectionReference) -> CollectionReference {

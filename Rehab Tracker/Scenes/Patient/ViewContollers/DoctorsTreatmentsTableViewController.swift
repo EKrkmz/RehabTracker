@@ -13,6 +13,12 @@ class DoctorsTreatmentsTableViewController: UITableViewController {
     private var patient: Patient?
     private var doctor: Doctor?
     
+    var viewModel: DoctorsTreatmentsViewModelProtocol! {
+        didSet {
+            viewModel.delegate = self
+        }
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
@@ -20,18 +26,21 @@ class DoctorsTreatmentsTableViewController: UITableViewController {
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         
+        viewModel.getPatient(patientID: patientID!)
+        
+        /*
         PatientManager.shared.downloadPatientWithID(patientID: patientID!) { (patient) in
             self.getDoctor(doctorID: patient.patientDoctor ?? "You have no doctor yet")
             self.patient = patient
-        }
+        }*/
     }
-    
+    /*
     func getDoctor(doctorID: String) {
         DoctorManager.shared.downloadDoctorWithID(doctorID: doctorID) { (doctor) in
             self.doctor = doctor
             self.tableView.reloadData()
         }
-    }
+    }*/
 
     // MARK: - Table view data source
 
@@ -53,5 +62,18 @@ class DoctorsTreatmentsTableViewController: UITableViewController {
         }
         
         return cell
+    }
+}
+
+extension DoctorsTreatmentsTableViewController: DoctorsTreatmentsViewModelDelegate {
+    func configureViewModelOutput(output: DoctorsTreatmentsViewModelOutput) {
+        switch output {
+        case .getDoctor(let doctor):
+            self.doctor = doctor
+            self.tableView.reloadData()
+        case .getPatient(let patient):
+            self.patient = patient
+            self.tableView.reloadData()
+        }
     }
 }
